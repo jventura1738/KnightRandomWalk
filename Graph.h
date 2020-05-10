@@ -10,6 +10,7 @@
 #include <vector>
 #include <queue>
 #include <map>
+#include <stdio.h>
 
 // Enumeration for the type of graph.
 // UNDIRECTED: standard graph with no specific direction.

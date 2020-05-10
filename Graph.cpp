@@ -14,7 +14,7 @@ int Graph<T>::_idxOf(const T & val) {
 	int index = 0;
 
 	// Iterate through the vector.
-	std::vector<T>::iterator j = vertices_alias.begin();
+	typename std::vector<T>::iterator j = vertices_alias.begin();
 	while (*j != val) {
 
 		// Increment the index & iterator.

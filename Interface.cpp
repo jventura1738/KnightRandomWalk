@@ -21,7 +21,7 @@ std::vector<std::pair<int, int>> knight_offsets() {
 
   for (int i = 0; i < 8; i++) {
 
-    offsets.push_back({X[i], Y[i]});
+    offsets.push_back(std::make_pair(X[i], Y[i]));
 
   }
 
@@ -46,7 +46,7 @@ std::set<std::pair<int, int>> twoD_pairs(int row, int col) {
 
     for (int j = 0; j < col; j++) {
 
-      S.insert({i, j});
+      S.insert(std::make_pair(i, j));
 
     }
 
@@ -145,7 +145,7 @@ Graph<std::string> generate_chess_board() {
 
           // This pair is the 2D version of the 1D representation of 
           // (index + offset) or 'knight move'. 
-          std::pair<int, int> p = {i + v->second, j + v->first};
+          std::pair<int, int> p = std::make_pair(i + v->second, j + v->first);
 
           // Using the above pair, we check that this pair representing
           // a move is indeed a valid move on chess board.
