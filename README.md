@@ -1,9 +1,13 @@
 # Knight's Random Walk Simulation & Analysis
 
-Collaboration by:
+A chess related problem with a purely mathematical solution.
+
+### Collaboration by:
 
 - Justin Ventura (Computer Science, Mathematics, Data Science Majors)
 - Jacob Duncan (Computer Science Major, Mathematics Minor)
+
+Salisbury Univerisity Sophomores.
 
 ## Application Description
 
