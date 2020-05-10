@@ -31,4 +31,4 @@ For a formal analysis, please refer to the following files:
 - x.latex: This is the source code for our LaTeX Report, if for some reason this interests you.
 - data.txt: This file contains some of the empirical data collected for viewing purposes.
 
-### Math is fun!
+### "Computation is about insight, not number." - Richard Hamming
