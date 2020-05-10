@@ -12,3 +12,7 @@ This directory contains all source code used in our implementation of the simula
 - makefile: please refer to the instructions below on how to run!
 
 In order to create the object (.o) files necessary for execution, simply type 'make.'  Then there will be an executable file called 'randomwalk' which can be run with an additional argument (a .txt file) which will be used to shoving output to.  Note that whatever file you pass in will be erased and replaced!  If you want many tests done, the program will prompt you in the terminal for how many simulations you would like done.  If you choose not to pass in an argument, then the program will simply output to the terminal.  To remove all executables and .o files, run 'make clean'.
+
+### Memory Info:
+
+This program was tested with Valgrind to ensure there are no memory leaks.  If you do not believe us, run 'make', then 'Valgrind ./RandomWalk <arg, if any>', then view the results.  Note that you must be on linux for this, as Mac does not have Valgrind compatibility.
