@@ -27,4 +27,4 @@ For a formal analysis, please refer to the following files:
 - Report.tex: This is the source code for our LaTeX Report, if for some reason this interests you.
 - data.txt: This file contains some of the empirical data collected for viewing purposes. (/Data)
 
-### "Computation is about insight, not numbers." - Richard Hamming
+### "Mathematics is not about you know, but what you do when you don't know." - Randall Cone
