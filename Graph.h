@@ -11,12 +11,6 @@
 #include <queue>
 #include <map>
 
-// Enumeration for coloring vertices in the BFS print function.
-// White: default color for the vertex.
-// Gray:  after we visit the vertex, but not yet its neighbors.
-// Black: after we visit the vertex and its neighbors.
-enum color_t { WHITE = 0, GRAY, BLACK };
-
 // Enumeration for the type of graph.
 // UNDIRECTED: standard graph with no specific direction.
 // DIRECTED: a graph where direction from vertices v1 to v2
@@ -34,7 +28,7 @@ public:
 
 	// The map from an integer (a specific vertex's value) to the
 	// said vertex's neighbors values.
-	std::map<int, std::vector<int>> vertices;
+	std::map<int, std::vector<int> > vertices;
 
 	// The underlying vector to the keys in the map from 0 - n
 	// respectively to the vertices map where n = # of nodes.
@@ -45,31 +39,16 @@ public:
 
 private:
 
-	// Maps to keep track of each vertex's discovery and finish
-	// time as calculated in DFS.
-	std::map<int, int> disc_times;
-	std::map<int, int> fin_times;
-
 	// Keeps track of what type of graph this is.
 	GRAPH_TYPE g_type;
-
-	// Keeps track of the timing for DFS.
-	int time;
-
-	// Boolean for if the graph is Directed & Acyclic or not.
-	bool isDAG;
 
 	/*
 	 * =========================================================
 	 * 
-	 * PRIVATE METHODS TO BE CALLED FROM PUBLICS.
+	 * PRIVATE FUNCTION TO BE CALLED FROM PUBLICS.
 	 *
 	 * _addEdge()  -> Helper for addEdge: returns whether the
 	 * edge can be added or not (true if edge not found.)
-	 *
-	 * _idxOf(val) -> Gets the index of val.
-	 * 
-	 * _DFSvisit() -> performs the DFS visit from DFS.
 	 *
 	 * =========================================================
 	*/
@@ -115,7 +94,7 @@ public:
 	 * Functions to: add a vertex to the graph,
 	 *               add an edge between two vertices,
 	 *               print the graph in adjacency list form,
-	 *               and print the graph vertices in BFS order.
+	 *               & other knight related functions.
 	 * 
 	 * =========================================================
 	*/ 
