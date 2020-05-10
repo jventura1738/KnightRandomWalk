@@ -23,9 +23,8 @@ The "Knight's Random Walk" Problem is a very interesting problem that seems daun
 
 For a formal analysis, please refer to the following files:
 
-- x.doc: This is the original Research Report document used as a draft to be copied over to LaTeX.  This is pretty up to date, however it is not as cool as the next file.
-- x.pdf: This is the final draft of our Research Report & Analysis written in LaTeX.  This includes all sources and citations, data, and source code outputs.  However, if you would like even more outputs, refer to the data.txt!
-- x.latex: This is the source code for our LaTeX Report, if for some reason this interests you.
-- data.txt: This file contains some of the empirical data collected for viewing purposes.
+- Report.pdf: This is the final draft of our Research Report & Analysis written in LaTeX.  This includes all sources and citations, data, and source code outputs.  However, if you would like even more outputs, refer to the data.txt!
+- Report.tex: This is the source code for our LaTeX Report, if for some reason this interests you.
+- data.txt: This file contains some of the empirical data collected for viewing purposes. (/Data)
 
 ### "Computation is about insight, not numbers." - Richard Hamming
